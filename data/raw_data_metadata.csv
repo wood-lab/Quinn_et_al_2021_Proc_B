@@ -1,0 +1,16 @@
+﻿variable,definition
+Line,"Integer, every line has a unique number"
+crab_id,"Character, every entry has locality code followed by underscore and unique 3 digit number.  E.g., TN_001 is crab 001 at Tacoma Narrows"
+locality,"Character, two uppercase letters.  Codes are as follows: AL = Argyll Lagoon, San Juan I. Washington; AP = Amphitrite Point S of Ucluelet; BM = Small Boat Mooring, Charleston, Coos Bay; DB = Drawbridge at South Slough, Coos Bay; FB = False Bay, San Juan I.; FH = Friday Harbor Labs; FP = Fossil Point, Coos Bay, Oregon; MB = Mukkaw Bay; NB = Neah Bay; YB = Oregon St. U. Mar.Sci. Center, Newport, Yaquina Bay; PI = Pages Lagoon, Nanaimo, B.C. inside lagoon; PO = Pages Lagoon, Departure B. (outside lagoon); SB = Sunset Bay, 3 mi S of Charleston, S. of Coos Bay; SP = Shipwreck Point and ""Strait of Juan de Fuca"" and ""Strait of Juan de Fuca, E of Neah Bay""; SS = South Slough, Coos Bay; TN = Tacoma Narrows, Titlow beach; UC = Ucluelet; WC = Willapa Bay, Bay Center Rd.; WR = Willapa Bay mi W of Raymond; WT = Willapa Bay Toketown Rd (typo, actually Tokeland Rd); YH = ""Yaquina Head 3 mi N of Newport"""
+collection_date,"Date of collection, YYYY-MM-DD"
+dissectors,"Character, two uppercase letters, initials of the collector(s): DG = Duncan Greeley; AK = Armand Kuris; ZZ = Zoe Zilz; JH = Jonathan Huie; HR = Hyejoo Ro"
+crab_spp,"Character, either H.o (for Hemigrapsus oregonensis) or H.n (for Hemigrapsus nudus).  There should be no spaces."
+sex,"Character, either F (= female) or M (= male)."
+host_size,"Numeric, carapace width in mm."
+count_portunion,"Integer.  For each individual crab, this column gives the number of Portunion conformis present."
+cystacanths,"Integer.  For each individual crab, this column gives the number of acanthocephalan cystacanths present."
+metacerc_rel_abund,"Integer, categorical classification of metacercarial abundance.  0 = no metacercariae present; 1 = 1-5 metacercariae present; 2 = 6-25 metacercariae present; 3 = >25 metacercariae present.  In historical datasets, 0 = ""no meta"", ""0"", or blank; 1 = ""present"", ""few meta"", ""few"", or ""+"", 2 = ""sev"", ""++"", or ""many""; 3 = ""+++""."
+dissector_remarks,Character.  Notes or remarks made by the dissector on their paper datasheet.
+first_datasheet_page,Integer.  For historical dataset only.  Corresponds to the page number of historical_datasheet_scans.pdf.
+year,"Year of collection, YYYY-MM-DD"
+data_type,"Character, whether data are from historical (= hist) or contemporary (= cont) sampling bout."
